@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="clock1()">
+    
+    <h2 id="text">This the is for the ID</h2>
+
+    <p>-----------------------------------</p>
+
+    <h1>This is h1 tag</h1>
+    <p>-----------------------------------</p>
+
+    <p class="box">this is for the box class</p>
+    <p>-----------------------------------</p>
+
+    <h1 class="change">Hello</h1>
+
+    <p>-----------------------------------</p>
+
+
+    <div class="flex_container">
+        <div class="flex_item"></div>
+        <div class="flex_item"></div>
+        <div class="flex_item"></div>
+    </div>
+    <br>
+    <button onclick="changeDirection()">Change Flex Direction</button>
+
+    <p>-----------------------------------</p>
+
+    <h3>What is difference in window and document</h3>
+
+    
+
+    <pre>
+        Window: It is the root object of all the objects in the javascript. This is called as a global object.
+
+        document: document is object like html, php etc which gets parsed inside the global object.
+
+        we can access document properties by using window.document.property or just by using document.property
+    </pre>
+
+    <p>-----------------------------------</p>
+
+
+    <h1 class="heading1">hello</h1>
+
+    <p>-----------------------------------</p>
+
+    <h3>here is the clock</h3>
+    <div id="clock">
+        
+    </div>    
+
+    <p>-----------------------------------</p>
+    
+
+    <select name="year" id="year1" onchange="func1()">
+        <option value="17-18">17-18</option>
+        <option value="18-19">18-19</option>
+        <option value="19-20">19-20</option>
+        <option value="20-21">20-21</option>
+        <option value="21-22">21-22</option>
+        <option value="22-23">22-23</option>
+        <option value="23-24">23-24</option>
+        <option value="24-25">24-25</option>
+    </select>
+
+    <p>selected text is : <span id="print">
+
+    </span></p>
+
+    <p>-----------------------------------</p>
+    <form action="" name="form1" method="post">
+
+    
+        <label for="name">Name</label>
+        <input type="text" id="name" value="">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" value="">
+        <br> <br>
+
+        <label for="phone">Phone no.</label>
+        <input type="number" id="phone" value="91">
+        <br> <br>
+
+        <label for="birth">YOB</label>
+        <input type="number" id="birth" value="birth" min="95" max="16">
+        <br> <br>
+    </form>
+
+    <p>-----------------------------------</p>
+    
+
+
+    <script src="index.js"></script>
+
+
+</body>
+</html>
