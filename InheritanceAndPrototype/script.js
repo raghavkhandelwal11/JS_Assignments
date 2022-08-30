@@ -13,7 +13,10 @@ let child = {
 }
 
 child.__proto__ = parent;
-child.printName();
+child.printName();  
+
+// output
+// hey there! this is parent.
 
 
 //-----------------------------------------------------------------
@@ -46,9 +49,9 @@ arr1 = [1, 2, 3, 4, 5, 6, 7, 8];
 arr2 = [123, 456, 789];
 arr3 = [34, 44, -64, 23, 53, -8];
 
-Array.addAll(arr1);
-Array.addAll(arr2);
-Array.addAll(arr3);
+Array.addAll(arr1); // 36
+Array.addAll(arr2); // 1368
+Array.addAll(arr3); // 82
 
 //-----------------------------------------------------------------------------
 
